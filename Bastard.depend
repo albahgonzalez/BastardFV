@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1552912861 source:/home/alba/Escritorio/Bastard/main.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	"Juego.h"
+
+1552158930 /home/alba/Escritorio/Bastard/include/Play.h
+	<SFML/Graphics.hpp>
+
+1552159103 source:/home/alba/Escritorio/Bastard/src/Play.cpp
+	"Play.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1554301759 /home/alba/Escritorio/Bastard/include/Juego.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Collisions.h"
+	"Player.h"
+
+1552913646 /home/alba/Escritorio/Bastard/include/Collisions.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1554300506 /home/alba/Escritorio/Bastard/include/Player.h
+	<iostream>
+	"Collisions.h"
+	"Player.h"
+	<SFML/Graphics.hpp>
+
+1552913642 source:/home/alba/Escritorio/Bastard/src/Collisions.cpp
+	"Collisions.h"
+
+1554303798 source:/home/alba/Escritorio/Bastard/src/Juego.cpp
+	"Juego.h"
+
+1554303249 source:/home/alba/Escritorio/Bastard/src/Player.cpp
+	"Player.h"
+
+1554299749 source:/home/alba/Escritorio/Bastard/src/Enemigo.cpp
+	"Enemigo.h"
+
+1554299434 /home/alba/Escritorio/Bastard/include/Enemigo.h
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1554300561 source:/home/alba/Escritorio/Bastard/src/Maps.cpp
+	"Maps.h"
+
+1554300561 /home/alba/Escritorio/Bastard/include/Maps.h
+
