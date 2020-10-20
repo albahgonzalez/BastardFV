@@ -6,6 +6,9 @@
 #include <SFML/Audio.hpp>
 #include "Collisions.h"
 #include "Player.h"
+#include "Enemigo.h"
+#include "Camara.h"
+#include "Maps.h"
 
 using namespace std;
 
@@ -20,24 +23,26 @@ class Juego
     private:
 
         Player* player;
+        Camara* camara;
+        Maps* map;
         Collisions* collisions;
+        Enemigo* enemy[4];
 
         sf::RenderWindow window;
         sf::Event evento;
-        sf::Clock reloj;
 
+        void modificarPuerta();
         void crear();
+        void crearEnemigos(int x, int y, int t);
         void eventos();
         void limpiar();
         void update();
         void render(float tiempo);
 
-    private:
-
         bool play = true;
         bool presionado = true;
         bool space = false;
-        char pressed = 0;
+        bool modoDios = false;
 
 };
 

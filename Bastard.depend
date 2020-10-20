@@ -12,41 +12,155 @@
 	<SFML/Graphics.hpp>
 	<iostream>
 
-1554301759 /home/alba/Escritorio/Bastard/include/Juego.h
+1557157201 /home/alba/Escritorio/Bastard/include/Juego.h
 	<iostream>
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 	"Collisions.h"
 	"Player.h"
+	"Enemigo.h"
+	"Camara.h"
+	"Maps.h"
 
 1552913646 /home/alba/Escritorio/Bastard/include/Collisions.h
 	<SFML/Graphics.hpp>
 	<iostream>
 
-1554300506 /home/alba/Escritorio/Bastard/include/Player.h
+1557157680 /home/alba/Escritorio/Bastard/include/Player.h
 	<iostream>
-	"Collisions.h"
-	"Player.h"
 	<SFML/Graphics.hpp>
-
-1552913642 source:/home/alba/Escritorio/Bastard/src/Collisions.cpp
 	"Collisions.h"
-
-1554303798 source:/home/alba/Escritorio/Bastard/src/Juego.cpp
-	"Juego.h"
-
-1554303249 source:/home/alba/Escritorio/Bastard/src/Player.cpp
-	"Player.h"
-
-1554299749 source:/home/alba/Escritorio/Bastard/src/Enemigo.cpp
 	"Enemigo.h"
-
-1554299434 /home/alba/Escritorio/Bastard/include/Enemigo.h
-	<iostream>
-	<SFML/Graphics.hpp>
-
-1554300561 source:/home/alba/Escritorio/Bastard/src/Maps.cpp
 	"Maps.h"
 
-1554300561 /home/alba/Escritorio/Bastard/include/Maps.h
+1555689278 source:/home/alba/Escritorio/Bastard/src/Collisions.cpp
+	"Collisions.h"
+
+1557156222 source:/home/alba/Escritorio/Bastard/src/Juego.cpp
+	"Juego.h"
+
+1557157671 source:/home/alba/Escritorio/Bastard/src/Player.cpp
+	"Player.h"
+	<math.h>
+	<stdio.h>
+	<iostream>
+
+1557156746 source:/home/alba/Escritorio/Bastard/src/Enemigo.cpp
+	"Enemigo.h"
+
+1557156388 /home/alba/Escritorio/Bastard/include/Enemigo.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<math.h>
+	"Player.h"
+	"Collisions.h"
+	"Maps.h"
+
+1557158170 source:/home/alba/Escritorio/Bastard/src/Maps.cpp
+	"Maps.h"
+
+1557156989 /home/alba/Escritorio/Bastard/include/Maps.h
+	<iostream>
+	<string>
+	<sstream>
+	"../xml/tinystr.h"
+	"../xml/tinyxml.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<SFML/System.hpp>
+
+1555674730 source:/home/alba/Escritorio/Bastard/src/Animation.cpp
+	"Animation.h"
+
+1555674730 /home/alba/Escritorio/Bastard/include/Animation.h
+
+1557155569 source:/home/alba/Escritorio/Bastard/src/Camara.cpp
+	"Camara.h"
+
+1556821254 /home/alba/Escritorio/Bastard/include/Camara.h
+	"Player.h"
+	<iostream>
+	<sstream>
+	<SFML/Graphics.hpp>
+
+1556450077 /home/alba/Escritorio/Bastard/include/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1556450150 /home/alba/Escritorio/Bastard/include/tinystr.h
+	<assert.h>
+	<string.h>
+
+1556450143 source:/home/alba/Escritorio/Bastard/src/tinystr.cpp
+	"tinystr.h"
+
+1556450099 source:/home/alba/Escritorio/Bastard/src/tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1556452466 source:/home/alba/Escritorio/Bastard/src/tinyxmlerror.cpp
+	"tinyxml.h"
+
+1556452506 source:/home/alba/Escritorio/Bastard/src/tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1555771114 /home/alba/Escritorio/Bastard/maps/xml/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1555771114 /home/alba/Escritorio/Bastard/maps/xml/tinystr.h
+	<assert.h>
+	<string.h>
+
+1554296782 /home/alba/Escritorio/Bastard/xml/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1554296782 /home/alba/Escritorio/Bastard/xml/tinystr.h
+	<assert.h>
+	<string.h>
+
+1554296782 source:/home/alba/Escritorio/Bastard/xml/tinystr.cpp
+	"tinystr.h"
+
+1554296782 source:/home/alba/Escritorio/Bastard/xml/tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1554296782 source:/home/alba/Escritorio/Bastard/xml/tinyxmlerror.cpp
+	"tinyxml.h"
+
+1554296782 source:/home/alba/Escritorio/Bastard/xml/tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
 

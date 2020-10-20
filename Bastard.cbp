@@ -42,17 +42,25 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="cb.bmp" />
+		<Unit filename="include/Camara.h" />
 		<Unit filename="include/Collisions.h" />
 		<Unit filename="include/Enemigo.h" />
 		<Unit filename="include/Juego.h" />
 		<Unit filename="include/Maps.h" />
 		<Unit filename="include/Player.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Camara.cpp" />
 		<Unit filename="src/Collisions.cpp" />
 		<Unit filename="src/Enemigo.cpp" />
 		<Unit filename="src/Juego.cpp" />
 		<Unit filename="src/Maps.cpp" />
 		<Unit filename="src/Player.cpp" />
+		<Unit filename="xml/tinystr.cpp" />
+		<Unit filename="xml/tinystr.h" />
+		<Unit filename="xml/tinyxml.cpp" />
+		<Unit filename="xml/tinyxml.h" />
+		<Unit filename="xml/tinyxmlerror.cpp" />
+		<Unit filename="xml/tinyxmlparser.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
